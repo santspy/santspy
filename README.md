@@ -10,9 +10,7 @@ Me chamo Orlando Santana, tenho 20 anos e moro na região da grande São Paulo. 
  
 #
 
-<div align="center">
-  <img width="300" alt="Cavaleiro" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExODh4djM1dzZ0Njd2ZGpyNGIxbG4xajUzMm90N2gxeDRibXJ0YmtwbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bHSkKRvkRvy5chUBBp/giphy.gif"/>
-</div>
+<img align="right" alt="" height="195px" src="chronicles-medieval.gif">
 
 
 <h3 align="left">Connect with me!</h3>
