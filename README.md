@@ -26,11 +26,9 @@ Me chamo Orlando Santana, tenho 20 anos e moro na região da grande São Paulo. 
 [![My Skills](https://skillicons.dev/icons?i=html&theme=light)](https://skillicons.dev)
 [![My Skills](https://skillicons.dev/icons?i=js&theme=light)](https://skillicons.dev)
 [![My Skills](https://skillicons.dev/icons?i=css&theme=light)](https://skillicons.dev)
-[![My Skills](https://skillicons.dev/icons?i=fastapi&theme=light)](https://skillicons.dev)
 [![My Skills](https://skillicons.dev/icons?i=docker&theme=light)](https://skillicons.dev)
 [![My Skills](https://skillicons.dev/icons?i=kubernetes&theme=light)](https://skillicons.dev)
 [![My Skills](https://skillicons.dev/icons?i=git&theme=light)](https://skillicons.dev)
-[![My Skills](https://skillicons.dev/icons?i=github&theme=light)](https://skillicons.dev)
 
 
 
