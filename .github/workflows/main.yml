@@ -25,7 +25,7 @@ jobs:
         uses: Platane/snk@v3
         id: snake-gif
         with:
-          github_user_name: ${{ santspy }}
+          github_user_name:  santspy 
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
