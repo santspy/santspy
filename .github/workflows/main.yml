@@ -1,1 +1,44 @@
---
+name: Generate Snake
+
+on:
+  # Executa automaticamente a cada 24 horas
+  schedule:
+    - cron: "0 0 * * *"
+
+  # Permite rodar manualmente na aba "Actions" do GitHub
+  workflow_dispatch:
+
+  # Executa também a varje push no branch main
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # 1. Gera os arquivos SVG da cobrinha
+      - name: Generate snake.svg
+        uses: Platane/snk@v3
+        id: snake-gif
+        with:
+          github_user_name: ${{ santspy }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      # 2. Mostra o status do commit (opcional, para debug)
+      - name: Show build status
+        run: echo "Generated successfully"
+
+      # 3. Envia os arquivos gerados de volta para o seu repositório
+      - name: Push snake to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
