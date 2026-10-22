@@ -6,7 +6,7 @@
 
 #
 
-Me chamo Orlando Santana, tenho 20 anos e sou de Carapicuíba, SP. Atualmente curso Análise e Desenvolvimento de Sistemas na Estácio. Sou Desenvolvedor Backend e faço automações utilizando Python.
+Me chamo Orlando Santana, tenho 20 anos e moro na região da grande São Paulo. Atualmente curso Análise e Desenvolvimento de Sistemas na Estácio. Sou Desenvolvedor Backend e faço automações utilizando Python.
  
 #
 
